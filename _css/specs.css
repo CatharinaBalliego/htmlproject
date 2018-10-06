@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+section#conteudo {
+    width: 150%;
+    margin: auto;
+    }
+
+/*iframe está obsoleto >> procurar alternativa ou nao usar */
+
+iframe#frame-spec {
+    width: 30%;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+
+/*Não consegui fazer a barra de rolagem sumir sem travar a rolagem...*/
+
+/*no chrome forma-se uma linha azul ao redor da área, o codigo abaixo faz com que não apareça*/
+map area {
+    outline: none;
+}
